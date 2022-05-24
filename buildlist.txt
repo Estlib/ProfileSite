@@ -8,6 +8,7 @@ Main selection:
 = Cover Music
 = Woodworking
 = Bakery
+= TF2 Maps
 = Collecting
 = Gaming
 = Programming
