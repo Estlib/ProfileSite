@@ -1,0 +1,402 @@
+Estlib's Website of Many Things
+
+Main selection:
+
+= Estlib
+= Youtube
+= Original Music
+= Cover Music
+= Woodworking
+= Bakery
+= Collecting
+= Gaming
+= Programming
+= Computing
+= Contacts
+
+================================================================================================================
+Section border || next section: List of Subcategories:
+================================================================================================================
+
+List of Subcategories:
+
+= Estlib
+-- Who is Estlib?
+-- What is this site?
+-- Space Lore
+
+= Youtube
+-- Entire History
+-- Types of Content
+-- List of Estlib's Channels to Watch
+-- Questions that might be in a FAQ, aswell as their answers.
+-- Content Registry
+
+= Original Music
+-- Entire History
+-- Bandcamp
+-- Soundcloud
+-- Full Discography
+
+= Cover Music
+-- Famitracker
+-- Mario Paint Composer
+-- Other
+
+= Woodworking
+-- Ties
+-- Furniture
+
+= Bakery
+-- Universal recipes
+-- Recipe book
+
+= TF2 Maps
+-- Maps by Gamemode
+---- Siege
+---- KOTH
+---- 5cp
+-- All Released Maps
+-- WIP and Cancelled Maps
+
+= Collecting
+-- Retro games
+---- Consoles
+---- Portables
+---- Computers
+-- Pogs
+-- Candy Wrappers
+-- Stamps
+
+= Gaming
+-- Retro
+-- Modern
+
+= Programming
+-- "Tools"
+-- "Games"
+
+= Computing
+-- PC hardware
+---- Phoenix
+---- Atlantis 1
+---- Atlantis 2
+
+= Contacts
+================================================================================================================
+Section border || next section: Estlib page contents:
+================================================================================================================
+
+
+= Estlib
+-- Who is Estlib?
+-- What is this site?
+-- Space Lore
+
+Who is Estlib? 
+= A small introductory trailer/text blurb as to who i am and what i like to do. History behind the white cat.
+--(this and next can be made into one site)
+
+What is this site?
+What the site is for, what is the intended purpose, why here?.
+--(this and previous can be made into one site)
+
+Space Lore
+where Estlib the Space Cat is from, his planet, the solar system, and the interstellar stronghold.
+--(cancelled as character launch has failed)
+
+
+================================================================================================================
+Section border || next section: Youtube page contents:
+================================================================================================================
+
+
+= Youtube
+-- Entire History
+-- Types of Content
+-- List of Estlib's Channels to Watch
+-- Questions that might be in a FAQ, aswell as their answers.
+-- Content Registry
+----Estlib (Old)
+----Estlib (Legacy)
+----Estlib (Current)
+----Estlib ROCO
+----Estlib Realm Royale
+
+Entire History
+= A long description of entire history of estlibs youtube, a videography of sorts. spanning from 2007-2022
+
+Types of Content
+= Long list of all types of content ever made.
+
+List of Estlib's Channels to Watch
+= Lists all the channels and their descriptions
+
+= Questions that might be in a FAQ, aswell as their answers.
+--Why did you stop doing youtube?
+----To be honest - it got real expensive without a real return. i mightve started it as a kid, but when i ended it
+----i was no longer a kid and i needed to move on. i wouldve gladly continued to do so had i progressed to a state 
+----where it could support me, but it was just impractical to continue to do so as it had been up to that point.
+----Passion is good and all, but it doesnt pay, if what you make is something people dont like and ultimately dont
+----want to watch. 
+----Another reason i found myself in during the final years on youtube was the burnout and pressure to fit in with 
+----other content creators. So my channel of "whatever i felt like doing" suffered - and it suffered alot. It is
+----very hard to reconcile a split followerbase when some are here for paladins, others for original music, hummer
+----team, snacktime and so on. Its hard to maintain that, but it was also a holdover from my original channel - in
+----essence it was still me doing whatever i want, but with more traditional gaming content fit into that. Though
+----even the way i did it isnt actually too conventional. so, not sure.
+----The third reason i have is that i just want to do other things now. Old hobbies arent really doing it for me 
+----anymore, so i want more time - and more importantly: the release of pressure i feel from doing youtube - to do
+----other things.
+--Why are there things here that ive never seen on your youtube?
+----Because i can.
+--Why did you make this site after youre done with youtube?
+----To consolidate and conserve my time on youtube, it hasnt been for nothing despite its unsustainability. I
+----learned many things because of it and gave me an outlet and an aspiration towards gaming and computers.
+--Are you ever coming back to youtube?
+----If i ever return, it will never be as i left it and as such, there are two ways i see myself ever making a
+----return - I either make a video about a thing i want to show, without a schedule on my current main channel
+----or i split my hobbies into their own channel, uploading every once in a while, to help with algorithm.
+----kind of like a streamer on twitch may have a channel for full VODs, shorts, highlights aswell as other content
+----this would mean things like snacktime has its own channel, original music, TF2 maps, etc etc.
+----however. A return of the latter sort is unlikely. If i ever were to, the first option is the most probable.
+
+Content Registry
+= Has small info detailing that all channels listed have different content registries, the content registries also
+= provide links to the content listed.
+
+----Estlib (Old)
+----Estlib (Legacy)
+----Estlib (Current)
+----Estlib ROCO
+----Estlib Realm Royale
+^-all of the above just contain respective registries
+
+
+================================================================================================================
+Section border || next section: Original Music page contents:
+================================================================================================================
+
+
+= Original Music
+-- Entire History
+-- Bandcamp
+-- Soundcloud
+-- Full Discography
+
+Entire History
+= Details history of making of my music from mario paint composer through famitracker up to a synth.
+
+Bandcamp
+= Direct link to bandcamp, no page
+
+Soundcloud
+= Direct link to Soundcloud, no page
+
+Full Discography
+= Listing of all released music, alongside with original release date, and link where to get it from
+= data format: (picture | album picture)
+= data format: (track name - author | albumname | release info)
+= data format: (comments about the track)
+= data format: (youtube | bandcamp | soundcloud)
+
+
+================================================================================================================
+Section border || next section: Cover Music page contents:
+================================================================================================================
+
+
+= Cover Music
+-- Famitracker
+-- Mario Paint Composer
+-- Other
+
+Famitracker
+= listing of famitracker covers, along with their associated data
+= data format:
+= (picture | picture 2)
+= (Trackname - Gamename/Album - Artist/Composer | link to mp3 | link to ftm | link to youtube)
+
+Mario Paint Composer
+= listing of mario paint composer covers, along with associated data
+= (picture | picture 2)
+= (Trackname - Gamename/Album - Artist/Composer | link to mp3 | link to zip | link to youtube)
+
+Other
+= listing of covers done in other software, along with associated data
+= (picture | picture 2)
+= (Trackname - Gamename/Album - Artist/Composer | link to mp3 | link to file | link to youtube)
+
+
+================================================================================================================
+Section border || next section: Woodworking page contents:
+================================================================================================================
+
+
+= Woodworking
+-- Ties
+-- Furniture
+
+Ties
+= blurb about ties
+= list all ties
+
+Furniture
+= blurb about furniture
+= list all furniture.
+
+
+================================================================================================================
+Section border || next section: Bakery page contents:
+================================================================================================================
+
+
+= Bakery
+-- Universal recipes
+-- Recipe book
+
+Universal recipes
+= blurb about universal recipes
+--Yeast dough 1 (not-pizza dough)
+--Yeast dough 2 
+--Universal cookie dough
+--Puff pastry
+--crumb pie recipe
+
+Recipe book
+= listing of recipes, each on their own page
+< content yet to be populated >
+
+
+================================================================================================================
+Section border || next section: TF2 Maps page contents:
+================================================================================================================
+
+
+= TF2 Maps
+-- Maps by Gamemode
+---- Siege
+---- KOTH
+---- 5cp
+-- All Released Maps
+-- WIP and Cancelled Maps
+
+Maps by Gamemode
+= contains page with links to different tf2 gamemodes
+
+Siege / KOTH / 5CP
+= contains a description of the gamemode (as it is in paladins and in TF2 in these maps)
+= and a listing of all siege maps as images, clicking which will bring each map to their own page
+< each page not yet populated >
+
+All Released Maps
+= contains a list of all released maps, organised alphabetically
+= data format: (IMGCOL | name of map | gamemode)
+= data format: (IMGCOL | map filename | current version)
+= data format: (IMGCOL | author/s | release year)
+= data format: (IMGCOL | comment)
+
+WIP and Cancelled Maps
+= contains a list of cancelled maps with images and reason of discontinuing
+= data format: (IMGCOL | name of map | gamemode)
+= data format: (IMGCOL | map filename | current version)
+= data format: (IMGCOL | author/s | release year)
+= data format: (IMGCOL | comment)
+
+
+================================================================================================================
+Section border || next section: Collecting page contents:
+================================================================================================================
+
+
+= Collecting
+-- Retro games
+---- Consoles
+---- Portables
+---- Computers
+-- Pogs
+-- Candy Wrappers
+-- Stamps
+
+= page contains blurbs about collecting with individual blurbs under different links
+
+Retro Games
+= contains three links to pages containing listings of retro stuff that i have
+
+Consoles
+= contains console hardware collection
+= data format: (maker | name | type | amount )
+
+Portables
+= contains portable hardware collection
+= data format: (maker | name | type | amount )
+
+Computers
+= contains computer hardware collection (nothing on this page)
+= data format: (maker | name | type | amount )
+
+Pogs
+= contains images and blurb of pogs collection, no listing, too many to list.
+
+Candy Wrappers
+= contains images and blurb of candy wrappers collection, no listing, too many to list.
+
+Stamps 
+= contains images and blurb of stamps collection, no listing, too many to list.
+= inherited collection
+
+
+================================================================================================================
+Section border || next section: Gaming page contents:
+================================================================================================================
+
+
+= Gaming
+-- Retro
+-- Modern
+
+= page contains blurb about my gaming history and links to retro and modern pages
+
+Retro
+= lists games that i have completed, alongside VHS longplay link, if possible.
+= data format: (game name | platform )
+= data format: (developer | publisher | year)
+= data format: (quick blurb about game and completing it
+= optional:    (VHS longplay link)
+
+Modern
+= Has story of pc games history
+
+
+================================================================================================================
+Section border || next section: Programming page contents:
+================================================================================================================
+
+
+= Programming
+-- "Tools"
+-- "Games"
+
+= page has blurb about programming, aspirations and links to tools and games pages
+
+Tools
+= has tool programs ive made
+< section has not been populated yet >
+
+Games
+= has games ive made
+= Spikerdaja
+
+
+================================================================================================================
+Section border || next section: Computing page contents:
+================================================================================================================
+
+
+= Computing
+-- PC hardware
+---- Phoenix
+---- Atlantis 1
+---- Atlantis 2
+
+< Page Undetermined >
