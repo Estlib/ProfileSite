@@ -42,6 +42,7 @@ List of Subcategories:
 = Cover Music
 -- Famitracker
 -- Mario Paint Composer
+-- Midi Covers
 -- Other
 
 = Woodworking
