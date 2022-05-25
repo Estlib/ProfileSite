@@ -1,0 +1,44 @@
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+  }
+  
+  .active, .accordion:hover {
+    background-color: #ccc; 
+  }
+  
+  .panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+  }
+  .test {
+      color: #008800;
+      text-shadow: #444;
+      text-decoration-style: double;
+  }  
+  .accordion2 {
+    background-color: #eee;
+    color: rgb(17, 77, 9);
+    cursor: pointer;
+    padding: 64px;
+    width: 300px;
+    border: none;
+    text-align: right;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+  }
+  
+  .active, .accordion2:hover {
+    background-color: rgb(255, 0, 0); 
+  }
