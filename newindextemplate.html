@@ -27,14 +27,14 @@
         align-items: flex-start;
         width: 20%;
         height: 100%;
-        background-color: #111;
+        background-color: darkgreen; /* has color for the area which is not accordion menu but also is not main page area */
     }
     main {
         position: fixed;
         right: 0;
         width: 80%;
         height: 100%;
-        background-color: #fff;
+        background-color: rgb(166, 255, 0); /* has color for the main page area which is not the accordion menu empty area */
         overflow: auto;
         padding: 40px;
     }
@@ -54,7 +54,7 @@
     }
     li, ul label.title, ul, a {
         width: 100%;
-        color: #FFF;
+        color: yellow; /* text color of menu items, not submenu items*/
         font-family: 'Montserrat', 'Open Sans', sans-serif;
         display: block;
         font-weight: bold;
@@ -69,11 +69,13 @@
     }
     li {
         display: block;
-        background-color: #363636;
+        background-color: #00b7ff; /* submenu item color*/
     }
     label.title {
+        border: 1px solid white;
+        padding: 3px;
         font-size: 14px;
-        background: linear-gradient(#111, #2f2f2f);
+        background: linear-gradient(rgb(0, 44, 0), darkgreen); /*menu item gradient colors*/
         padding: 10px 15px;
         cursor: pointer;
     transition: all .25s;
@@ -81,17 +83,17 @@
     a{
         font-size: 12px;
         text-decoration: none;
-        color: #FFF;
+        color: #000; /* submenu item text color */
         display: block;
         padding: 10px 25px;
         transition: all .25s;
     }
     a:hover {
-        background-color: #444;
-    box-shadow: inset 5px 0px 0px 0px #fff;
+        background-color: rgb(255, 255, 255); /* submenu item rollover main color */
+    box-shadow: inset 5px 0px 0px 0px rgb(255, 166, 0); /* submenu item animated bar color */
     }
     label:hover {
-        text-shadow: 0px 0px 10px #fff;
+        text-shadow: 0px 0px 10px #000; /* text outer glow color of main menu item */
     }
     input[type="radio"] {
         display: none;
