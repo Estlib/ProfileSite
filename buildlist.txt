@@ -54,6 +54,7 @@ List of Subcategories:
 -- Recipe book
 
 = TF2 Maps
+-- Of My Mapping in General
 -- Maps by Gamemode
 ---- Siege
 ---- KOTH
@@ -83,6 +84,7 @@ List of Subcategories:
 ---- Phoenix
 ---- Atlantis 1
 ---- Atlantis 2
+-- Portable hardware
 
 = Contacts
 ================================================================================================================

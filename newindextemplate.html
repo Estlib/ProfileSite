@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>link bar test 2 imported</title>
+    <style>
+    @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
+    @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,300);
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body {
+        font-family: 'Montserrat', sans-serif;
+    }
+    .container {
+        width: 100%;
+        height: 100%;
+    }
+    nav {
+        position: fixed;
+        display: flex;
+        align-items: flex-start;
+        width: 20%;
+        height: 100%;
+        background-color: #111;
+    }
+    main {
+        position: fixed;
+        right: 0;
+        width: 80%;
+        height: 100%;
+        background-color: #fff;
+        overflow: auto;
+        padding: 40px;
+    }
+    h1 {
+        font-weight: bold;
+        margin-bottom: 50px;
+        font-size: 55px;
+        text-align: center;
+    }
+    p {
+        margin-bottom: 20px;
+        line-height: 26px;
+    }
+    p::first-letter {
+        font-size: 200%;
+        font-weight: bold;
+    }
+    li, ul label.title, ul, a {
+        width: 100%;
+        color: #FFF;
+        font-family: 'Montserrat', 'Open Sans', sans-serif;
+        display: block;
+        font-weight: bold;
+    }
+    ul label {
+        height: 35px; /* height of section title */
+    }
+    ul li{
+        height: 35px; /* height of listed elements*/
+        overflow: hidden;
+        transition: all .3s;
+    }
+    li {
+        display: block;
+        background-color: #363636;
+    }
+    label.title {
+        font-size: 14px;
+        background: linear-gradient(#111, #2f2f2f);
+        padding: 10px 15px;
+        cursor: pointer;
+    transition: all .25s;
+    }
+    a{
+        font-size: 12px;
+        text-decoration: none;
+        color: #FFF;
+        display: block;
+        padding: 10px 25px;
+        transition: all .25s;
+    }
+    a:hover {
+        background-color: #444;
+    box-shadow: inset 5px 0px 0px 0px #fff;
+    }
+    label:hover {
+        text-shadow: 0px 0px 10px #fff;
+    }
+    input[type="radio"] {
+        display: none;
+    }
+    #edit:checked + li, #archive:checked + li, #tools:checked + li, #preferences:checked + li {
+        height: 179px;
+    }
+    #estlib:checked + li {
+        height: 140px; /* combined height of the section title and clickable links or additional lists - 3 in list +1 title*/
+    }
+    #youtube:checked + li {
+        height: 210px; /* combined height of the section title and clickable links or additional lists - 5 in list +1 title*/
+    }
+    #ocmusic:checked + li, #covermusic:checked + li, #tf2maps:checked + li {
+        height: 175px; /* combined height of the section title and clickable links or additional lists - 4 in list +1 title*/
+    }
+    #woodworking:checked + li, #bakery:checked + li, #gaming:checked + li, #programming:checked + li, #computing:checked + li{
+        height: 105px; /* combined height of the section title and clickable links or additional lists - 2 in list +1 title*/
+    }
+    i {
+        margin-right: 12px;
+    }
+    @media screen and (max-width: 600px){
+        nav {
+            width: 100%;
+            position: relative;
+        }
+        main {
+            width: 100%;
+            position: relative;
+        }
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+		<nav class="menu">
+			<ul>
+				<input type="radio" name="menu" id="estlib" checked>
+				<li>
+					<label for="estlib" class="title">Estlib</label>
+					<a href="#">Who is Estlib?</a>
+					<a href="#">What is this site?</a>
+					<a href="#">Space Lore</a>
+				</li>
+				<input type="radio" name="menu" id="youtube">
+				<li>
+					<label for="youtube" class="title">Youtube</label>
+					<a href="#">Entire History</a>
+					<a href="#">Types of Content</a>
+					<a href="#">List of Estlib's Channels to Watch</a>
+					<a href="#">Questions that might be in a FAQ.</a>
+					<a href="#">Content Registry</a>
+				</li>
+				<input type="radio" name="menu" id="ocmusic">
+				<li>
+					<label for="ocmusic" class="title">Original Music</label>
+					<a href="#">Entire History</a>
+					<a href="#">Bandcamp</a>
+					<a href="#">Soundcloud</a>
+					<a href="#">Full Discography</a>
+				</li>
+				<input type="radio" name="menu" id="covermusic">
+				<li>
+					<label for="covermusic" class="title">Cover Music</label>
+					<a href="#">Famitracker</a>
+					<a href="#">Mario Paint Composer</a>
+					<a href="#">Midi Covers</a>
+					<a href="#">Other</a>
+				</li>
+				<input type="radio" name="menu" id="woodworking">
+				<li>
+					<label for="woodworking" class="title">Woodworking</label>
+					<a href="#">Ties</a>
+					<a href="#">Furniture</a>
+				</li>
+				<input type="radio" name="menu" id="bakery">
+				<li>
+					<label for="bakery" class="title">Bakery</label>
+					<a href="bakery/universalrecipes.html">Universal Recipes</a>
+					<a href="bakery/recipebook.html">Recipe Book</a>
+				</li>
+				<input type="radio" name="menu" id="tf2maps">
+				<li>
+					<label for="tf2maps" class="title">Team Fortress 2 Maps</label>
+					<a href="#">Of My Mapping in General</a>
+					<a href="#">Maps by Gamemode</a>
+					<a href="#">All Released Maps</a>
+					<a href="#">WIP and Cancelled Maps</a>
+				</li>
+<!--                <input type="radio" name="menu" id="tf2maps">
+				<li>
+					<label for="tf2maps" class="title">Team Fortress 2 Maps</label>
+					<a href="#">Of My Mapping in General</a>
+                    <a href="#">
+                        <input type="radio" name="menu" id="estlib" checked>
+                        <li>
+                            <label for="estlib" class="title">Maps by Gamemode</label>
+                            <a href="#">Siege</a>
+                            <a href="#">King of the Hill</a>
+                            <a href="#">5 Control Point</a>
+                        </li>
+                    </a>
+					<a href="#">Maps by Gamemode</a>
+					<a href="#">All Released Maps</a>
+					<a href="#">WIP and Cancelled Maps</a>
+				</li>-->
+                <input type="radio" name="menu" id="collecting">
+				<li>
+					<label for="collecting" class="title">Collecting</label>
+					<a href="#">Retro games</a>
+					<a href="#">Pogs</a>
+					<a href="#">Candy Wrappers</a>
+					<a href="#">Stamps</a>
+				</li>
+				<input type="radio" name="menu" id="gaming">
+				<li>
+					<label for="gaming" class="title">Gaming</label>
+					<a href="#">Retro</a>
+					<a href="#">Modern</a>
+				</li>
+                <input type="radio" name="menu" id="programming">
+				<li>
+					<label for="programming" class="title">Programming</label>
+					<a href="#">"Tools"</a>
+					<a href="#">"Games"</a>
+				</li>
+                <input type="radio" name="menu" id="computing">
+				<li>
+					<label for="computing" class="title">Computing</label>
+					<a href="#">PC Hardware</a>
+					<a href="#">Portable Hardware</a>
+				</li>
+			</ul>
+		</nav>
+		<main class="main">
+			<h1>Estlib's Website of Many Things!</h1>
+			<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/sKluAE5r27Q?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+            <br>
+            <p style="text-align: center;">Hello and welcome to my website of many things! Click on a selection on the lefthand side to <br>get started exploring my many many things! This site contains no NSFW content.</p>
+		</main>
+	</div>
+</body>
+</html>
