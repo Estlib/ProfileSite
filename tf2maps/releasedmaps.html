@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Released Maps</title>
+    <style>
+    @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
+    @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,300);
+    /* @import url(https://drive.google.com/open?id=15fG_BjjAU1TeFh0_7ZI13VZQTR-JsV7C); */
+    @font-face {
+            font-family: 'Serpentine-Light';
+            src: url('../fonts/Serpentine-Light.otf')
+            /* src: url(https://drive.google.com/open?id=15fG_BjjAU1TeFh0_7ZI13VZQTR-JsV7C) format(opentype); */
+        }
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body {
+        font-family: 'Serpentine-Light';
+        color: white;
+        text-shadow:
+        -1px -1px 0 #000,  
+            1px -1px 0 #000,
+            -1px 1px 0 #000,
+            1px 1px 0 #000;
+        background-image: url('../images/general/space.jpg');
+    }
+    .container {
+        width: 100%;
+        height: 100%;
+    }
+    nav {
+        position: fixed;
+        display: flex;
+        align-items: flex-start;
+        width: 20%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.308); /* has color for the area which is not accordion menu but also is not main page area */
+    }
+    main {
+        position: fixed;
+        right: 0;
+        width: 80%;
+        height: 100%;
+        /*background-image: url('images/general/space.jpg');
+        /*background-color: rgb(166, 255, 0); /* has color for the main page area which is not the accordion menu empty area */
+        overflow: auto;
+        padding: 40px;
+    }
+    h1 {
+        font-weight: bold;
+        margin-bottom: 50px;
+        font-size: 55px;
+        text-align: center;
+    }
+    p {
+        margin-bottom: 20px;
+        line-height: 26px;
+        font-size: 20px; /**/
+    }
+/*     p::first-letter {
+        font-size: 200%;
+        font-weight: bold;
+    } */
+    li, ul label.title, ul, a {
+        width: 100%;
+        color: rgb(255, 255, 255); /* text color of menu items, not submenu items*/
+        font-family: 'Serpentine-Light';
+        display: block;
+        font-weight: normal;
+    }
+    ul label {
+        height: 35px; /* height of section title */
+    }
+    ul li{
+        height: 35px; /* height of listed elements*/
+        overflow: hidden;
+        transition: all .3s;
+    }
+    li {
+        display: block;
+        background-color: #ffffff44; /* submenu item color*/
+    }
+    label.title {
+        border: 2px solid white;
+        border-left: 4px solid white;
+        border-right: 4px solid white;
+        font-size: 22px;
+        background: linear-gradient(rgba(0, 22, 0, 0.438), rgba(0, 54, 0, 0.438)); /*menu item gradient colors*/
+        padding: 4px 15px;
+        cursor: pointer;
+    transition: all .25s;
+    }
+    a{
+        font-size: 12px;
+        text-shadow: 1px #000;
+        text-decoration: none;
+        color: rgb(255, 255, 255); /* submenu item text color */
+        display: block;
+        padding: 10px 25px;
+        transition: all .25s;
+    }
+    a:hover {
+        background-color: rgba(1, 32, 0, 0.308); /* submenu item rollover main color */
+    box-shadow: inset 5px 0px 0px 0px rgb(0, 129, 32); /* submenu item animated bar color */
+    }
+    label:hover {
+        text-shadow: 0px 0px 10px #000; /* text outer glow color of main menu item */
+    }
+    input[type="radio"] {
+        display: none;
+    }
+    #edit:checked + li, #archive:checked + li, #tools:checked + li, #preferences:checked + li {
+        height: 179px;
+    }
+    #estlib:checked + li {
+        height: 140px; /* combined height of the section title and clickable links or additional lists - 3 in list +1 title*/
+    }
+    #youtube:checked + li {
+        height: 210px; /* combined height of the section title and clickable links or additional lists - 5 in list +1 title*/
+    }
+    #ocmusic:checked + li, #covermusic:checked + li, #tf2maps:checked + li, #collecting:checked + li {
+        height: 175px; /* combined height of the section title and clickable links or additional lists - 4 in list +1 title*/
+    }
+    #woodworking:checked + li, #bakery:checked + li, #gaming:checked + li, #programming:checked + li, #computing:checked + li{
+        height: 105px; /* combined height of the section title and clickable links or additional lists - 2 in list +1 title*/
+    }
+    i {
+        margin-right: 12px;
+    }
+    #darkboxed {
+        margin: 15px 15px 15px 15px;
+        border: 4px 4px 4px 4px white;
+        background-color: rgba(0, 0, 0, 0.308);
+    }
+    @media screen and (max-width: 600px){
+        nav {
+            width: 100%;
+            position: relative;
+        }
+        main {
+            width: 100%;
+            position: relative;
+        }
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+		<nav class="menu">
+			<ul>
+				<input type="radio" name="menu" id="estlib" checked>
+				<li>
+					<label for="estlib" class="title">Estlib</label>
+					<a href="../estlib/whoisestlib.html">Who is Estlib?</a>
+					<a href="../estlib/whatisthissite.html">What is this site?</a>
+					<a href="../estlib/spacelore.html">Space Lore</a>
+				</li>
+				<input type="radio" name="menu" id="youtube">
+				<li>
+					<label for="youtube" class="title">Youtube</label>
+					<a href="../youtube/entirehistory.html">Entire History</a>
+					<a href="../youtube/contenttypes.html">Types of Content</a>
+					<a href="../youtube/listofchannels.html">List of Estlib's Channels to Watch</a>
+					<a href="../youtube/maybeitsafaq.html">Questions that might be in a FAQ.</a>
+					<a href="../youtube/contentregistry.html">Content Registry</a>
+				</li>
+				<input type="radio" name="menu" id="ocmusic">
+				<li>
+					<label for="ocmusic" class="title">Original Music</label>
+					<a href="../originalmusic/entirehistory.html">Entire History</a>
+					<a href="../originalmusic/entirehistory.html">Bandcamp</a>
+					<a href="../originalmusic/entirehistory.html">Soundcloud</a>
+					<a href="../originalmusic/entirehistory.html">Full Discography</a>
+				</li>
+				<input type="radio" name="menu" id="covermusic">
+				<li>
+					<label for="covermusic" class="title">Cover Music</label>
+					<a href="../covermusic/famitracker.html">Famitracker</a>
+					<a href="../covermusic/mariopaintcomposer.html">Mario Paint Composer</a>
+					<a href="../covermusic/midicovers.html">Midi Covers</a>
+					<a href="../covermusic/othercovers.html">Other</a>
+				</li>
+				<input type="radio" name="menu" id="woodworking">
+				<li>
+					<label for="woodworking" class="title">Woodworking</label>
+					<a href="../woodworking/neckties.html">Ties</a>
+					<a href="../woodworking/furniture.html">Furniture</a>
+				</li>
+				<input type="radio" name="menu" id="bakery">
+				<li>
+					<label for="bakery" class="title">Bakery</label>
+					<a href="../bakery/universalrecipes.html">Universal Recipes</a>
+					<a href="../bakery/recipebook.html">Recipe Book</a>
+				</li>
+				<input type="radio" name="menu" id="tf2maps">
+				<li>
+					<label for="tf2maps" class="title">Team Fortress 2 Maps</label>
+					<a href="mapping.html">Of My Mapping in General</a>
+					<a href="mapsbygamemode.html">Maps by Gamemode</a>
+					<a href="releasedmaps.html">All Released Maps</a>
+					<a href="cancelledmaps.html">WIP and Cancelled Maps</a>
+				</li>
+<!--                <input type="radio" name="menu" id="tf2maps">
+				<li>
+					<label for="tf2maps" class="title">Team Fortress 2 Maps</label>
+					<a href="#">Of My Mapping in General</a>
+                    <a href="#">
+                        <input type="radio" name="menu" id="estlib" checked>
+                        <li>
+                            <label for="estlib" class="title">Maps by Gamemode</label>
+                            <a href="#">Siege</a>
+                            <a href="#">King of the Hill</a>
+                            <a href="#">5 Control Point</a>
+                        </li>
+                    </a>
+					<a href="#">Maps by Gamemode</a>
+					<a href="#">All Released Maps</a>
+					<a href="#">WIP and Cancelled Maps</a>
+				</li>-->
+                <input type="radio" name="menu" id="collecting">
+				<li>
+					<label for="collecting" class="title">Collecting</label>
+					<a href="#">Retro games</a>
+					<a href="#">Pogs</a>
+					<a href="#">Candy Wrappers</a>
+					<a href="#">Stamps</a>
+				</li>
+				<input type="radio" name="menu" id="gaming">
+				<li>
+					<label for="gaming" class="title">Gaming</label>
+					<a href="#">Retro</a>
+					<a href="#">Modern</a>
+				</li>
+                <input type="radio" name="menu" id="programming">
+				<li>
+					<label for="programming" class="title">Programming</label>
+					<a href="#">"Tools"</a>
+					<a href="#">"Games"</a>
+				</li>
+                <input type="radio" name="menu" id="computing">
+				<li>
+					<label for="computing" class="title">Computing</label>
+					<a href="#">PC Hardware</a>
+					<a href="#">Portable Hardware</a>
+				</li>
+			</ul>
+		</nav>
+		<main class="main">
+			<h1 id="darkboxed">All Released Maps</h1>
+			<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/sKluAE5r27Q?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+            <br>
+            <p style="text-align: center;" id="darkboxed">All Released Maps<br>content tbd</p>
+		</main>
+	</div>
+</body>
+</html>
